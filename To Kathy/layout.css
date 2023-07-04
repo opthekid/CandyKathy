@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: rgb(36, 36, 36);
+}
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 89, 0);
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(0, 0, 255);
+}
+.welcome{
+    font-size: 30px;
+    background-color: #525252;
+    font-weight: bold;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;/*內部區塊左右對其*/
+    justify-content: center;/*水平對齊*/
+    flex-wrap: wrap;
+}
+.main2{
+    display: flex;/*內部區塊左右對其*/
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 23%;;
+    background-color: aquamarine;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+/* CSS Media Query 完成 RWD 網頁*/
+@media (max-width :1200px){
+    .box{
+        width: 45%;
+    }
+}
+@media (max-width :580px){
+    .box{
+        width: 90%;
+    }
+}
